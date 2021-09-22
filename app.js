@@ -11,5 +11,8 @@ startBtn.addEventListener('click', (event)
 
 timeList.addEventListener('click', event =>
 {
-
+    if (event.target.classList.contains
+        ('time-btn')) {
+            console.log(event.target.getAttribute('data-time'))
+        }
 })
