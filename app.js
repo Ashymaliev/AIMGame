@@ -41,3 +41,14 @@ function startGame() {
     setTimeout(time)
 }
 
+function decreaseTime() {
+    if (time === 0) {
+        finishGame()
+    } else {
+        let current = --time
+        if (current <10) {
+            current = `0${current}`
+        }
+        setTime(current)
+    }
+}
