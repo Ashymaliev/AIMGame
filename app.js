@@ -38,13 +38,13 @@ board.addEventListener('click', event => {
         }
 })
 
-function setColor(event) {
-    const element = event.target
-    const color = getRandomColor()
-    element.style.backgroundColor = color
-    element.style.boxShadow = `0 0 2px ${color}, 
-    0 0 10px ${color}`
-}
+// function setColor(event) {
+//     const element = event.target
+//     const color = getRandomColor()
+//     element.style.backgroundColor = color
+//     element.style.boxShadow = `0 0 2px ${color}, 
+//     0 0 10px ${color}`
+// }
 
 function startGame() {
     setInterval(decreaseTime, 1000)
@@ -104,11 +104,12 @@ function getRandomNumber(min, max) {
 
 function winTheGame() {
     function kill() {
-        const circle = document.querySelector('circle')
+        const circle = document.querySelector
+        ('circle')
     
     if (circle) {
         circle.click()
     }
 }
-    setInterval(kill, 80)
+    setInterval(kill, 75)
 }
