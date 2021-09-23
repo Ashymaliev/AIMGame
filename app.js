@@ -52,3 +52,14 @@ function decreaseTime() {
         setTime(current)
     }
 }
+
+function setTime(value) {
+    timeEl.innerHTML = `00:${value}`
+}
+
+function finishGame() {
+    timeEl.parentNode.classList.add('hide')
+    board.innerHTML = `<h1>Cчет: <span
+    class="primery>">${score}</span></h1>`
+}
+
