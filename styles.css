@@ -3,7 +3,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   color: #fff;
   font-family: 'Khula', sans-serif;
@@ -12,25 +11,20 @@ body {
   margin: 0;
   text-align: center;
 }
-
 a {
   color: #fff;
   text-decoration: none;
 }
-
 a:hover {
   color: #16D9E3;
 }
-
 .start {
   font-size: 1.5rem;
 }
-
 h1 {
   line-height: 1.4;
   font-size: 4rem;
 }
-
 .screen {
   display: flex;
   flex-direction: column;
@@ -41,11 +35,9 @@ h1 {
   transition: margin 0.5s ease-out;
   background: linear-gradient(90deg, #29323C 0%, #485563 100%);
 }
-
 .screen.up {
   margin-top: -100vh;
 }
-
 .time-list {
   display: flex;
   flex-wrap: wrap;
@@ -53,11 +45,9 @@ h1 {
   list-style: none;
   padding: 0;
 }
-
 .time-list li {
   margin: 10px;
 }
-
 .time-btn {
   background-color: transparent;
   border: 2px solid #C0C0C0;
@@ -67,20 +57,16 @@ h1 {
   padding: .5rem 1rem;
   font-size: 1.5rem;
 }
-
 .time-btn:hover {
   border: 2px solid #16D9E3;
   color: #16D9E3;
 }
-
 .hide {
   opacity: 0;
 }
-
 .primary {
   color: #16D9E3;
 }
-
 .board {
   display: flex;
   justify-content: center;
@@ -93,7 +79,6 @@ h1 {
   border-radius: 30px;
   overflow: hidden;
 }
-
 .circle {
   background: linear-gradient(90deg, #16D9E3 0%, #30C7EC 47%, #46AEF7 100%);
   position: absolute;
